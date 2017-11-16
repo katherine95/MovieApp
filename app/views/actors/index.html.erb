@@ -6,6 +6,7 @@
             <%= image_tag actor.image %>
             <h3> <%= actor.first_name %> </h3>
             <h3> <%= actor.last_name %> </h3>
+            <%= link_to "Learn more", actor_path(actor) %>
             <p> <%= actor.bio %></p>
           </div>
           <% end %>
